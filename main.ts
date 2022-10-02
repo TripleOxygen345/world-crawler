@@ -1,5 +1,6 @@
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorOpenEast, function (sprite, location) {
     color.FadeToBlack.startScreenEffect(1000)
+    tiles.setCurrentTilemap(tilemap` `)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.floorLight5, function (sprite, location) {
     pause(1000)
